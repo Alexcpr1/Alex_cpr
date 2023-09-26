@@ -1,0 +1,45 @@
+body
+{
+	background-color: blueviolet;
+}
+
+h1
+{
+	color: darkred;
+}
+
+
+.d2
+{
+	background-color: whitesmoke;
+	border: 3px solid darkred;
+	border-width: 3px;
+	border-color: darkred;
+	border-radius: 50%;
+	padding: 45px 45px;
+	text-align: center;
+	margin: 10px;
+	width: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.d1
+{
+	background-color: white;
+	color: dark;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-align: center;
+	margin: 10px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.d1:hover
+{
+	transform: scale(1.1);
+	background-color: whitesmoke;
+}
