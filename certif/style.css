@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+}
+
+
+
+
+.d1:hover
+{
+    transform: scale(1.1);
+	background-color: beige;
+}
+.d2:hover:hover
+{
+    transform: scale(1.1);
+	background-color: beige;
+}
+
+img{
+    border-radius: 50px;
+    border: black;
+}
