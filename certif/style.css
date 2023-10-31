@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+}
+
+
+
+
+.d1:hover
+{
+    transform: scale(1.1);
+	background-color: aliceblue;
+}
+.d2:hover:hover
+{
+    transform: scale(1.1);
+	background-color: aliceblue;
+}
+
+img{
+    border-radius: 50px;
+    border: black;
+}
