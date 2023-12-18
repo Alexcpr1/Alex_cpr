@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+    <h2>Tableau Dynamique</h2>
+
+        Nom: <input type="text" name="t1" id="t1"> <br>
+		Age: <input type="text" name="t2" id="t2"> <br>
+
+    <table id="myTable" border="2">
+        <tr>
+            <th>Nom</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <th>John</th>
+            <th>30</th>
+        </tr>
+        <tr>
+            <th>Jane</th>
+            <th>25</th>
+        </tr>
+    </table>
+    <button onclick="ajouterligne()">Ajouter une ligne</button>
+    <script>
+        function ajouterLigne() {
+            if (t1.value == "" || t2.value == "")
+                alert("Champs non remplis");
+            else if (t2.value < 10 || t2.value > 20)
+                alert("Age invalide");
+            else {
+                var table = document.getElementById("myTable");
+                var newRow = table.insertRow(-1);
+                var cell1 = newRow.insertCell(0);
+                var cell2 = newRow.insertCell(1);
+                cell1.innerHTML = t1.value;
+                cell2.innerHTML = t2.value;
+            }
+        }
+    </script>
+    </center>
+</body>
+</html>
